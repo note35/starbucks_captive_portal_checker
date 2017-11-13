@@ -2,14 +2,14 @@ import json
 import configparser
 
 from scapy.all import PcapReader
-from stuckbucks_captive_portal_checker import StuckbucksCaptivePortalChecker
+from starbucks_captive_portal_checker import StarbucksCaptivePortalChecker
 
 config = configparser.ConfigParser()
 config.read('config.ini')
 
 
 if __name__ == '__main__':
-    scpc = StuckbucksCaptivePortalChecker()
+    scpc = StarbucksCaptivePortalChecker()
 
     # Parsing pcap file and checking packet one by one
     with PcapReader(config['PATH']['PCAP_INPUT_PATH']) as pcap_reader:

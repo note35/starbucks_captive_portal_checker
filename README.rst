@@ -1,7 +1,7 @@
-Stuckbucks Captive Portal Checker
+Starbucks Captive Portal Checker
 =================================
 
-A checker for making sure the process of stuckbucks captive portal.
+A checker for making sure the process of starbucks captive portal.
 
 This is a hackathon project of `IETF 100 Hackathon <https://www.ietf.org/registration/MeetingWiki/wiki/100hackathon>`_.
 
@@ -10,14 +10,14 @@ Author: aoimidori27@gmail.com note351@hotmail.com
 Documentation
 -------------
 
-`Presentation: <https://github.com/capport-wg/wg-materials/blob/master/ietf100/hackathon_capport-quick-checker.pdf>`_
+`Presentation <https://github.com/capport-wg/wg-materials/blob/master/ietf100/hackathon_capport-quick-checker.pdf>`_
 
 How to run this project?
 ------------------------
 
 **Stage1 - Get .pcap file**
 
-1. Go to Stuckbucks Cafe
+1. Go to Starbucks Cafe
 2. Turn off your wifi, close the browser
 3. Starting to capture packets by toos(such as wireshark, tcpdump) on wifi interface
 4. Turn on your wifi
@@ -38,8 +38,8 @@ How to run this project?
 
 .. code-block:: shell
 
-    $ git clone git@github.com:note35/stuckbucks_captive_portal_checker.git
-    $ cd stuckbucks_captive_portal_checker
+    $ git clone git@github.com:note35/starbucks_captive_portal_checker.git
+    $ cd starbucks_captive_portal_checker
 
 2. Install prerequisite
 
